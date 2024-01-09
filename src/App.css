@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap');
+
+* {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+
+.button-chat {
+  transition: 0.4s;
+  width: 40px;
+  background-color: #14A687;
+  border: none;
+
+}
+.message-container{
+  
+}
+
+.button-chat:hover {
+  background-color: #007758;
+  cursor: pointer;
+}
+
+.animated-input {
+  border: 1px solid #CCCCCC;
+  border-radius: 10px;
+  padding: 10px;
+  width: calc(100% - 70px);
+  transition: border-color 0.3s ease;
+}
+
+.animated-input:focus {
+  border-color: #14A687;
+}
+
+.inputs {
+  background: #efe7dd url("https://cloud.githubusercontent.com/assets/398893/15136779/4e765036-1639-11e6-9201-67e728e86f39.jpg") repeat;
+  /* border: 1px solid #CCCCCC; */
+  /* border-top: 1px solid #EFE7DE; */
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#user-name{
+  background: #109C7D;
+  transition: 0.4s;
+}
+#user-name:hover{
+  background-color: #007758;
+}
+#application {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+height: 90vh;
+}
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
